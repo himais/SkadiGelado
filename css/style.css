@@ -1,0 +1,859 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,100|Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    color: #191919;
+}
+.color-me {
+    color: #008B8B;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.light {
+    font-weight: 300;
+}
+.serif-font {
+    font-family: 'Playfair Display', serif;
+}
+
+/* ------ HEADER INICIAL  ------ */
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container .title-container {
+    z-index: 1000;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    /* older browsers */
+    color: rgba(255, 255, 255, 0.9);
+}
+.video-container .title-container hr {
+    width: 40px;
+}
+.video-container .headline h1 {
+    font-size: 4em;
+    font-weight: 100;
+}
+.video-container .description .inner {
+    font-size: 0.8em;
+    margin: 0 2% 0 2%;
+    margin: 0 auto;
+    font-weight: 100;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+.video-container .link {
+    position: absolute;
+    bottom: 3em;
+    width: 100%;
+    text-align: center;
+    z-index: 1001;
+    font-size: 2em;
+    color: #fff;
+}
+.video-container .link a {
+    color: #fff;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+/*título */
+
+
+/* General link styles */
+
+.link {
+    outline: none;
+    text-decoration: none;
+    position: relative;
+    line-height: 1;
+    color: #9e9ba4;
+    display: inline-block;
+}
+
+/* ------ Conteúdo Inicial ------ */
+
+.cont-inicial-section {
+    text-align: center;
+    background: white;
+    height: auto;
+    margin-bottom: 0px;
+}
+.cont-inicial-section h2 {
+    font-size: 27px;
+    color: white;
+}
+
+/* ------ HEADER POR PÁGINA ------ */
+
+.about {
+    background: url("../img/about-header.jpg") no-repeat center center fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -khtml-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+.sabores {
+    background: url("../img/sabores-header.jpg") no-repeat center center fixed;
+    background-size: 100%;
+}
+.eventos {
+    background: url("../img/eventos-header.jpg") no-repeat center center fixed;
+    background-size: 100%;
+}
+.outros {
+    background: url("../img/outros-header.jpg") no-repeat center center fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -khtml-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+.loja {
+    background: url("../img/loja-header.jpg") no-repeat center center fixed;
+    background-size: 100%;
+}
+
+/* ------ SECTIONS ------ */
+
+
+/* ------ PÁGINAS ------ */
+
+.page {
+    padding-top: 5%;
+    height: auto;
+    background-color: white;
+    color: #333333;
+    font-size: 13px;
+    line-height: 25px;
+}
+.page h2 {
+    text-align: center;
+    font-weight: 300;
+    color: #008B8B;
+}
+.page h3 {
+    text-align: center;
+}
+.page h4 {
+    text-align: center;
+}
+
+/* ---- Títulos das páginas --- */
+
+.title-header-page {
+    font-size: 60px;
+    font-weight: 300;
+    margin-top: 70px;
+}
+.sub-header-page {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.title-footer {
+    margin-top: 0px;
+    color: white;
+    margin-left: 2%;
+}
+
+/* ------ SOBRE ------ */
+
+.sobre-descricao {
+    background: url("../img/about-2.jpg") no-repeat center center fixed;
+    background-size: 100%;
+    padding: 2%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.sobre-descricao h2 {
+    font-size: 25px;
+    color: white;
+}
+.sobre-descricao .btn1 {
+    cursor: auto;
+}
+
+/* ------ SABORES ------ */
+
+.galeria {
+    margin: 2% 3% 1% 3%;
+}
+.galeria .img-thumbnail {
+    border: none;
+}
+.galeria h4 {
+    font-size: 21px;
+}
+.sabores-descricao {
+    background: url("../img/sabores-1.jpg") no-repeat center center fixed;
+    background-size: 100%;
+    padding: 5%;
+}
+.sabores-descricao h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.sabores-descricao ul {
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* ------ EVENTOS ------ */
+
+.eventos-descricao {
+    background: url("../img/eventos-1.jpeg") no-repeat center center fixed;
+    background-size: 100%;
+    padding: 5%;
+}
+.eventos-descricao h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.eventos-descricao h3 {
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.box {
+    border: 1px black solid;
+    padding: 1%;
+    width: auto;
+    height: auto;
+    margin: 0 15% 0 15%;
+}
+
+/* ------ OUTROS ------ */
+
+.outros-descricao {
+    background: url("../img/outros-1.jpg") no-repeat center center fixed;
+    background-size: 100%;
+    padding: 3%;
+    padding-bottom: 1%;
+}
+.outros-descricao h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.outros-descricao p {
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-right: 10%;
+}
+
+/* ------ lOJA ------ */
+
+#map {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+/* ------ CONTATO ------ */
+
+.full-contato {
+    background: url(../img/contato.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.contato-title {
+    font-weight: 300;
+    font-size: 3em;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    padding-top: 25%;
+}
+.contato-body {
+    font-size: 1.0em;
+    padding-bottom: 15%;
+}
+
+/* mensagens de erro da validação */
+
+label {
+    display: block;
+}
+label.error {
+    float: none;
+    color: white;
+    margin-top: 5px;
+    margin-left: 2%;
+    font-size: 12px;
+    line-height: inherit;
+}
+p {
+    clear: both;
+}
+.submit {
+    margin-top: 1em;
+}
+em {
+    font-weight: bold;
+    padding-right: 1em;
+}
+input.error,
+select.error,
+textarea.error {}
+
+/* ----- FORM ----- */
+
+
+/* Alteração do input */
+
+.white-input {
+    background-color: white;
+}
+.text-white {
+    color: white;
+}
+textarea {
+    resize: none;
+}
+.form-contato {
+    padding: 15px;
+}
+.panel {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.panel hr {
+    margin: 3% 0 3% 0;
+}
+.panel .btn1-primary {
+    margin-top: 3%;
+    padding: 12px 10px;
+    font-size: 12px;
+}
+select,
+input,
+textarea {
+    border-radius: 0px;
+    !important;
+}
+.input-group {
+    color: #008B8B;
+    border: 2px black gray;
+    padding: 2px;
+    background-color: white;
+}
+.input-group:hover,
+.input-group:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    outline: 1px solid rgba(81, 203, 238, 1);
+}
+.input-group:focus {
+    color: #008B8B;
+}
+.input-group-addon {
+    background: white;
+    border-right: none;
+    box-shadow: none;
+}
+.form-control {
+    border-left: none;
+}
+.form-control,
+.input-group-addon {
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* -------- MODAL -------- */
+
+.modal-fullscreen {
+    background-color: transparent;
+    opacity: 0.2;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    background-size: cover;
+}
+.contato {
+    background: url("../img/contato.jpg") no-repeat center center fixed;
+}
+.modal-fullscreen .modal-content {
+    background: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.modal-backdrop.modal-backdrop-fullscreen {
+    background: #ffffff;
+}
+.modal-backdrop.modal-backdrop-fullscreen.in {
+    opacity: .97;
+    filter: alpha(opacity=97);
+}
+
+/* .modal-fullscreen size: we use Bootstrap media query breakpoints */
+
+.modal-fullscreen .modal-dialog {
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .modal-fullscreen .modal-dialog {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .modal-fullscreen .modal-dialog {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .modal-fullscreen .modal-dialog {
+        width: 1170px;
+    }
+}
+.modal-fullscreen > .span3 {
+    display: inline-block !important;
+    vertical-align: middle;
+}
+.span3 {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    color: #fff;
+}
+
+/* ------ RODAPÉ ------ */
+
+.footer-distributed {
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.0);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    background-size: cover;
+    padding: 25px 20px;
+    padding-top: 5px;
+    bottom: 0;
+    position: static;
+}
+.footer-links strong {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.footer-border {
+    border-left: 1px solid #008B8B;
+    padding-left: 1%;
+}
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+.referencia {
+    color: #008B8B;
+}
+
+/* logo */
+
+.footer-distributed h3 {
+    color: dimgrey;
+    font-weight: 400;
+    margin: 0;
+}
+.footer-distributed h3 span {
+    color: #008B8B;
+    font-weight: 300;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: dimgray;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+.footer-distributed .footer-company-name {
+    color: #008B8B;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+.footer-distributed .footer-center i {
+    color: #008B8B;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+    margin-right: 2px;
+}
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 12px;
+    line-height: 25px;
+}
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: dimgray;
+    vertical-align: middle;
+    margin: 0;
+}
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 2;
+    color: #008B8B;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.footer-distributed .footer-center p a {
+    color: #008B8B;
+    text-decoration: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #008B8B;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #008B8B;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+    .title-header-page {
+        font-size: 50px;
+        /* tamanho fonte header */
+    }
+    .footer-distributed {
+        font: 12px;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+    .footer-border {
+        border-left: 0px;
+        padding-left: 0;
+    }
+}
+
+/* ------ DIVISÓRIA ------ */
+
+hr.divsoria {
+    border-top: 2px solid #008B8B;
+    border-bottom: 1px solid #008B8B;
+    width: 50px;
+}
+.galeria hr.divsoria {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+hr.divsoria2 {
+    border-top: 0px solid #008B8B;
+    border-bottom: 1px solid #008B8B;
+    width: 50px;
+}
+
+/* ------ BOTÃO ------ */
+
+.btn-modal:hover {
+    color: aliceblue;
+}
+
+/* General button style (reset) */
+
+.btn1 {
+    border: none;
+    font-family: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.btn1-primary {
+    padding: 15px 20px;
+    font-size: 1 em;
+}
+.btn1:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Button 1 */
+
+.btn1-lg {
+    border: 2px solid #fff;
+    color: #fff;
+}
+.btn2-lg {
+    border: 2px solid #000;
+    color: #000;
+}
+
+/* Button 1a */
+
+.btn1-primary:hover,
+.btn1-primary:active {
+    color: #008B8B;
+    background: #fff;
+    border-color: #008B8B;
+}
+.bnt1-small {
+    padding: 5px 10px;
+    font-size: 0.5em;
+}
+.btn2 {
+    border: none;
+    font-family: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.btn2-primary {
+    padding: 10px 20px;
+    font-size: 12px;
+}
+.btn2:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Button 1 */
+
+.btn2-lg {
+    border: 2px solid dimgrey;
+    color: dimgrey;
+}
+
+/* Button 1a */
+
+.btn2-primary:hover,
+.btn2-primary:active {
+    color: #008B8B;
+    background: #fff;
+}
+.bnt2-small {
+    padding: 5px 10px;
+    font-size: 0.5em;
+}
+
+/* ------ CENTRALIZAR ------ */
+
+.cover {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    background-color: #eeeeee;
+    margin-bottom: 0px !important;
+    padding: 0px 0px;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+}
+.cover-index {
+    min-height: 100%;
+}
+.cover-contato {
+    min-height: 100%;
+    min-width: 100%;
+}
+.cover-page {
+    height: 50%;
+}
+.cover h1,
+.cover .h1 {
+    color: inherit;
+}
+.cover p {
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+.cover > hr {
+    border-top-color: #d5d5d5;
+}
+.container .cover,
+.container-fluid .cover {
+    border-radius: 5px;
+}
+.cover .container {
+    max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .cover {
+        padding: 48px 0;
+    }
+    .container .cover,
+    .container-fluid .cover {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .cover {
+        padding: 0px;
+    }
+    .container .cover,
+    .container-fluid .cover {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
