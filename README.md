@@ -1,11 +1,11 @@
 # Projeto #1 - 3º semestre/2016
 
-Projeto desenvolvido para a disciplina FW1 (Ferramentas para WEB 1) do terceiro semestre do curso de Análise e Desenvolvimento de Sistemas (2016) do Instituto Federal de Educação, Ciência e tecnologia de São Paulo - Campus São Paulo. 
+Projeto desenvolvido para a disciplina FW1 (Ferramentas para WEB 1) do terceiro semestre do curso de Análise e Desenvolvimento de Sistemas (2016) do Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - Campus São Paulo. 
 
 
 # SkadiGelado
 
-O conteúdo desenvolvido pode ser visualizado em http://skadigelado.esy.es/.
+O projeto está disponível em http://skadigelado.esy.es/.
 
 ## Sobre o projeto
 
