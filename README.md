@@ -9,7 +9,7 @@ O projeto está disponível em http://skadigelado.esy.es/.
 
 ## Sobre o projeto
 
-Foi solicitado o desenvolvimento de um website com tema livre, com o intuito de praticar os conteúdos ministrados durante a disciplina. 
+Foi solicitado o desenvolvimento de um website com tema livre, com o intuito de praticar os conteúdos estudados durante a disciplina. 
 
 ## Tecnologias
 
@@ -17,3 +17,6 @@ Foi solicitado o desenvolvimento de um website com tema livre, com o intuito de 
 - jQuery v1.11.1 
 - jQuery Validation Plugin v1.15.0
 - Google Maps API
+
+***
+Obs.: Todo o conteúdo é totalmente fictício e com fim puramente educacional. As referências estão localizadas no rodapé das páginas.
